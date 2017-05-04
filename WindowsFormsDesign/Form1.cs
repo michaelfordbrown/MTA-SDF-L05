@@ -21,5 +21,10 @@ namespace WindowsFormsDesign
         {
             label1.Text = dateTimePicker1.Value.ToLongDateString();
         }
+
+        private void InheritedForm_Load(object sender, EventArgs e)
+        {
+            label1.Text = dateTimePicker1.Value.ToLongDateString();
+        }
     }
 }

@@ -57,7 +57,8 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "InheritedForm";
+            this.Load += new System.EventHandler(this.InheritedForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -65,8 +66,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        protected System.Windows.Forms.Label label1;
+        protected System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 
