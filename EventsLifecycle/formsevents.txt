@@ -1,0 +1,1 @@
+1 - Move event : This event occurs when the form is moved. Although by default, when a form is instantiated and launched, the user does not move it, yet this event is triggered before the Load event occurs.
